@@ -29,7 +29,7 @@ html{
 
 section{
     padding: 1rem ;
-    width: 100vw;
+    width: 100%;
 }
 
 html::-webkit-scrollbar{
@@ -181,7 +181,7 @@ header .icons #menu-bars{
     flex-wrap: wrap;
     gap: 5rem;
     width: 100vw;
-    padding: .5rem;
+    padding: 2rem;
     margin-top: 5rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -504,7 +504,7 @@ header .icons #menu-bars{
   width: 400px;
   padding: 5rem;
 }
-.contact{
+.order{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -513,7 +513,7 @@ header .icons #menu-bars{
   width: 100%;
     padding: 2rem;
 }
-.contact .container{
+.order .container{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -522,15 +522,15 @@ header .icons #menu-bars{
   gap: 5rem;
   
 }
-.contact .container .col-1{
+.order .container .col-1{
   height: 50%;
   width: 30%;
   padding: 1rem;
 }
-.contact .container .col-1 img{
+.order .container .col-1 img{
   width: 100%;
 }
-.contact .container .col-2{
+.order .container .col-2{
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -541,29 +541,29 @@ header .icons #menu-bars{
   text-align:left;
   gap: 3rem;
 }
-.contact .container .col-2 h3{
+.order .container .col-2 h3{
   font-size: 4rem;
   color: black;
   text-align: left;
 }
-.contact .container .col-2 h6{
+.order .container .col-2 h6{
 
   font-size: 3rem;
 
   color: black;
   text-align: left;
 }
-.contact .container .col-2 p{
+.order .container .col-2 p{
 
   font-size: 2rem;
 
   color: black;
   text-align:left;
 }
-.contact .container .col-2 a{
+.order .container .col-2 a{
   margin-left: -13rem;
 }
-.contact .container2{
+.order .container2{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -571,14 +571,14 @@ header .icons #menu-bars{
   flex-wrap: wrap;
   gap: 5rem;
 }
-.contact .container2 .col-1{
+.order .container2 .col-1{
   display: flex;
   width: 40%;
   flex-direction: column;
   justify-content: center;
   gap: 4rem;
 }
-.contact .container2 .col-1 .box{
+.order .container2 .col-1 .box{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -587,28 +587,47 @@ header .icons #menu-bars{
   border-radius: 3rem;
   padding: 2rem;
 }
-.contact .container2 .col-1 .box h2{
+.order .container2 .col-1 .box h2{
   font-size: 3rem;
   color: #000;
 }
-.contact .container2 .col-1 .box p{
+.order .container2 .col-1 .box p{
   font-size: 2rem;
   color:var(--light-color);
 }
-.contact .container2 .col-1 .box h3{
+.order .container2 .col-1 .box h3{
   font-size: 2.5rem;
   color: #000;
 }
-.contact .container2 .col-2{
+.order .container2 .col-2{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width:50%;
   
 }
-.contact .container2 .col-2 img{
+.order .container2 .col-2 img{
     width: 500px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries */
 
@@ -745,46 +764,46 @@ header .icons #menu-bars{
         
         padding: 1rem;
     }
-    .contact{
+    .order{
       width: 100%;
     }
-    .contact .containe{
+    .order .containe{
       flex-direction: column;
       display: flex;
       width: 100%;
     }
-    .contact .container .col-1{
+    .order .container .col-1{
       width: 100%;
       padding: 1rem;
 }
-    .contact .container .col-1 img{
+    .order .container .col-1 img{
       width: 100%;
 }
-    .contact .container .col-2{
+    .order .container .col-2{
     width: 100%;
     text-align: center;
   }
-    .contact .container .col-2 a{
+    .order .container .col-2 a{
       margin-left: 1rem;
     }
-    .contact .container2{
+    .order .container2{
       width: 100%;
       display: flex;
       flex-direction: column;
     }
-     .contact .container2 .col-1{
+     .order .container2 .col-1{
        width: 100%;
      }
-    .contact .container2 .col-1 .box{
+    .order .container2 .col-1 .box{
       width: 100%;
       place-items: center;
       text-align: center;
       padding: 3rem;
     }
-     .contact .container2 .col-2{
+     .order .container2 .col-2{
        width: 100%;
      }
-      .contact .container2 .col-2 img{
+      .order .container2 .col-2 img{
         width: 100%;
       }
 }
